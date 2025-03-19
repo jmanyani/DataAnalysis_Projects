@@ -6,13 +6,14 @@ This project focuses on analyzing employee attrition data using an HR intelligen
 
 ## 📁 Data Source
 
-- **Dataset**: HR Dashboard Snapshot  
+- **Dataset**: [HR Dashboard Snapshot](HR_Analytics.csv)  
 - **Key Metrics**: Attrition Rate, Average Age, Average Income, Tenure, Attrition Count  
 
 ## 📊 Key Visualizations
 
-### 1️⃣ Attrition by Gender  
-- **Count of Employees**: 1,470  
+### 1️⃣ Key Metrics  
+
+- **Total Employees**: 1,470  
 - **Attrition Rate**: 16.1%  
 - **Average Age**: 37 years  
 - **Average Income**: $6.5K  
@@ -26,40 +27,33 @@ This project focuses on analyzing employee attrition data using an HR intelligen
 - **Medical**: 27%  
 
 ### 3️⃣ Attrition by Age  
-- **18-25**: 44%  
-- **26-35**: 43%  
-- **36-45**: 27%  
-- **46-55**: 95+ *(Note: This seems to be an outlier or data error)*  
+- **18-25**: 44  
+- **26-35**: 116
+- **36-45**: 43  
+- **46-55**: 26  
+- **55+**: 8
+
 
 ### 4️⃣ Attrition by Salary  
 - **Up to $3K**: 163  
 - **$3K-$10K**: 49  
 - **$10K-$15K**: 20  
-- **$15K+**: *(Data not provided)*  
+- **$15K+**: 5  
 
-### 5️⃣ Attrition by Years Worked  
-*(Data not provided in detail)*  
 
-### 6️⃣ Attrition by Role  
+### 5️⃣  Attrition by Role  
 - **Laboratory Technician**: 62  
 - **Sales Executive**: 57  
 - **Research Scientist**: 47  
 - **Sales Representative**: 33  
 
-## 🔥 Key Metrics  
 
-- **Total Employees**: 1,470  
-- **Attrition Rate**: 16.1%  
-- **Average Age**: 37 years  
-- **Average Income**: $6.5K  
-- **Attrition Count**: 237  
-- **Average Tenure**: 7.0 years  
 
 ## ✅ Insights and Conclusions  
 
 - The overall attrition rate is **16.1%**, with **237 employees** leaving the organization.  
 - Employees with **life sciences education** have the highest attrition rate (**38%**), followed by **medical (27%)** and **technical degrees (14%)**.  
-- **Younger employees (18-25 years)** have a higher attrition rate (**44%**) compared to older age groups.  
+- **Younger employees (18-25 years)** have a higher attrition rate (**44**) compared to older age groups.  
 - **Lower-income employees (up to $3K)** contribute significantly to attrition (**163 employees**).  
 - **Laboratory Technicians** and **Sales Executives** have the highest attrition counts among roles.  
 
